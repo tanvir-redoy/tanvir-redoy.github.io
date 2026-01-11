@@ -1,9 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png' style='border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);'>"
+title: "Efficient Computing Systems"
+excerpt: "Research on optimizing performance and efficiency in distributed computing systems through novel architectures and algorithms."
 collection: portfolio
+publication_venue: "NSDI 2024"
+tags:
+  - Systems
+  - Performance
+  - Optimization
 ---
 
-<div style='background-color: #f9f9f9; padding: 20px; border-radius: 8px;'>
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.
-</div>
+This research focuses on building efficient computing systems that leverage advanced techniques to overcome traditional performance limitations. The work combines systems optimization with AI-driven approaches to achieve significant improvements in throughput and latency.
