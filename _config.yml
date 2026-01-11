@@ -9,8 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # Changed to a more modern theme
-title                    : "Homepage"
+title                    : "Tanvir Redoy's Homepage"
 title_separator          : "-"
+nav_title                : "Homepage"
 name                     : &name "Tanvir Redoy"
 description              : &description "Tanvir Redoy's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://tanvir-redoy.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
