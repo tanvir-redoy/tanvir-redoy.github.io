@@ -8,10 +8,26 @@ redirect_from:
 ---
 
 <style>
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
 .about-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #333;
 }
 
 .about-header {
@@ -20,38 +36,42 @@ redirect_from:
 }
 
 .about-header h1 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #222;
+  letter-spacing: -0.02em;
 }
 
 .about-header .subtitle {
-  font-size: 18px;
+  font-size: 16px;
   color: #666;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .about-links {
   display: flex;
-  gap: 15px;
+  gap: 12px;
   margin-top: 20px;
   flex-wrap: wrap;
 }
 
 .about-links a {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px 14px;
   background-color: #f5f5f5;
-  border-radius: 4px;
-  color: #1976d2;
+  border-radius: 3px;
+  color: #0066cc;
   text-decoration: none;
-  font-size: 14px;
-  transition: background-color 0.3s;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+  border: 1px solid #e0e0e0;
 }
 
 .about-links a:hover {
-  background-color: #e0e0e0;
+  background-color: #ececec;
   text-decoration: none;
 }
 
@@ -60,29 +80,110 @@ redirect_from:
 }
 
 .about-section h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
-  margin-bottom: 15px;
-  color: #333;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 10px;
+  margin-bottom: 16px;
+  color: #222;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 12px;
+  letter-spacing: -0.01em;
 }
 
 .about-section p {
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 1.75;
   color: #555;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.about-section ul {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #555;
+  margin: 15px 0;
+  padding-left: 24px;
+}
+
+.about-section ul li {
+  margin-bottom: 10px;
+}
+
+.about-section strong {
+  color: #222;
+  font-weight: 600;
 }
 
 .highlight-box {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-left: 4px solid #1976d2;
-  margin: 20px 0;
-  border-radius: 4px;
+  background-color: #fafafa;
+  padding: 18px 20px;
+  border-left: 3px solid #0066cc;
+  margin: 25px 0;
+  border-radius: 3px;
+}
+
+.highlight-box p {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0052a3;
+  text-decoration: underline;
 }
 </style>
+
+<div class="about-container">
+  <div class="about-header">
+    <h1>Your Name</h1>
+    <div class="subtitle">Your Affiliation / University</div>
+    <div class="about-links">
+      <a href="mailto:your.email@example.com">Email</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Google Scholar</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h2>About</h2>
+    <p>
+      Welcome to my academic portfolio. I am a researcher and scholar focused on [your research area]. 
+      Currently, I am [your position] at [your institution].
+    </p>
+    <p>
+      My research interests include [interest 1], [interest 2], and [interest 3]. I am passionate about 
+      developing novel approaches to solve complex problems in my field.
+    </p>
+  </div>
+
+  <div class="about-section">
+    <h2>Research Focus</h2>
+    <p>
+      My research spans multiple areas within [field]. I focus on:
+    </p>
+    <ul>
+      <li><strong>Area 1:</strong> Brief description of your research in this area.</li>
+      <li><strong>Area 2:</strong> Brief description of your research in this area.</li>
+      <li><strong>Area 3:</strong> Brief description of your research in this area.</li>
+    </ul>
+  </div>
+
+  <div class="highlight-box">
+    <p>
+      <strong>📋 For more details:</strong> 
+      Check out my <a href="/portfolio/">portfolio</a>, 
+      <a href="/publications/">publications</a>, or 
+      <a href="/cv/">CV</a>.
+    </p>
+  </div>
+</div>
 
 <div class="about-container">
   <div class="about-header">

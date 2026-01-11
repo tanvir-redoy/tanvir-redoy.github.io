@@ -6,6 +6,15 @@ classes: wide
 ---
 
 <style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .portfolio-container {
   max-width: 900px;
   margin: 0 auto;
@@ -17,17 +26,18 @@ classes: wide
 }
 
 .portfolio-section h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 20px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 10px;
-  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 12px;
+  color: #222;
+  letter-spacing: -0.02em;
 }
 
 .portfolio-item {
-  margin-bottom: 25px;
-  padding-bottom: 20px;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #f0f0f0;
 }
 
@@ -40,18 +50,21 @@ classes: wide
   font-weight: 600;
   margin-bottom: 8px;
   color: #222;
+  letter-spacing: -0.01em;
 }
 
 .portfolio-item p {
   margin-bottom: 8px;
-  color: #666;
-  line-height: 1.6;
+  color: #555;
+  line-height: 1.7;
+  font-size: 15px;
 }
 
 .portfolio-meta {
-  font-size: 14px;
-  color: #999;
+  font-size: 13px;
+  color: #888;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 
 .portfolio-tags {
@@ -65,9 +78,10 @@ classes: wide
   display: inline-block;
   background-color: #f5f5f5;
   padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 13px;
+  border-radius: 3px;
+  font-size: 12px;
   color: #666;
+  font-weight: 500;
 }
 
 .highlight {
@@ -76,14 +90,71 @@ classes: wide
 }
 
 a {
-  color: #1976d2;
+  color: #0066cc;
   text-decoration: none;
+  transition: color 0.2s;
 }
 
 a:hover {
+  color: #0052a3;
   text-decoration: underline;
 }
+
+ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.7;
+}
 </style>
+
+<div class="portfolio-container">
+  <div class="portfolio-section">
+    <h2>🎯 Research Interests</h2>
+    <p>Your research interests and focus areas go here. This is a clean, minimalist section to introduce your academic focus.</p>
+  </div>
+
+  <div class="portfolio-section">
+    <h2>📰 Selected Works</h2>
+    {% for post in site.portfolio %}
+      <div class="portfolio-item">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html }}</p>
+        {% if post.publication_venue %}
+          <div class="portfolio-meta">{{ post.publication_venue }}</div>
+        {% endif %}
+        {% if post.tags %}
+          <div class="portfolio-tags">
+            {% for tag in post.tags %}
+              <span class="portfolio-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="portfolio-section">
+    <h2>🎓 Education</h2>
+    <div class="portfolio-item">
+      <h3>Your Degree</h3>
+      <div class="portfolio-meta">University Name | Expected Graduation</div>
+      <p>Brief description of your education, focus areas, and advisors.</p>
+    </div>
+  </div>
+
+  <div class="portfolio-section">
+    <h2>🏆 Awards & Honors</h2>
+    <div class="portfolio-item">
+      <div class="portfolio-meta">Year</div>
+      <p>Award Name - Brief description of the achievement.</p>
+    </div>
+  </div>
+</div>
 
 <div class="portfolio-container">
   <div class="portfolio-section">
