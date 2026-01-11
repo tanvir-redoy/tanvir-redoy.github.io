@@ -1,8 +1,7 @@
 ---
-layout: splash
+layout: single
 title: "Portfolio"
 permalink: /portfolio/
-classes: wide
 author_profile: true
 ---
 
@@ -114,50 +113,6 @@ ul li {
   line-height: 1.7;
 }
 </style>
-
-<div class="portfolio-container">
-  <div class="portfolio-section">
-    <h2>🎯 Research Interests</h2>
-    <p>Your research interests and focus areas go here. This is a clean, minimalist section to introduce your academic focus.</p>
-  </div>
-
-  <div class="portfolio-section">
-    <h2>📰 Selected Works</h2>
-    {% for post in site.portfolio %}
-      <div class="portfolio-item">
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html }}</p>
-        {% if post.publication_venue %}
-          <div class="portfolio-meta">{{ post.publication_venue }}</div>
-        {% endif %}
-        {% if post.tags %}
-          <div class="portfolio-tags">
-            {% for tag in post.tags %}
-              <span class="portfolio-tag">{{ tag }}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-
-  <div class="portfolio-section">
-    <h2>🎓 Education</h2>
-    <div class="portfolio-item">
-      <h3>Your Degree</h3>
-      <div class="portfolio-meta">University Name | Expected Graduation</div>
-      <p>Brief description of your education, focus areas, and advisors.</p>
-    </div>
-  </div>
-
-  <div class="portfolio-section">
-    <h2>🏆 Awards & Honors</h2>
-    <div class="portfolio-item">
-      <div class="portfolio-meta">Year</div>
-      <p>Award Name - Brief description of the achievement.</p>
-    </div>
-  </div>
-</div>
 
 <div class="portfolio-container">
   <div class="portfolio-section">

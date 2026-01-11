@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # Changed to a more modern theme
-title                    : "Tanvir Redoy's Homepage"
+title                    : "Tanvir Redoy's Website"
 title_separator          : "-"
 nav_title                : "Homepage"
 name                     : &name "Tanvir Redoy"
