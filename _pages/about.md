@@ -135,7 +135,7 @@ a {
 
 a:hover {
   color: #0052a3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 </style>
 
