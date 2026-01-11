@@ -145,37 +145,29 @@ a:hover {
 </style>
 
 <div class="about-container">
-  <div class="about-header">
-    <h1>Your Name</h1>
-    <div class="subtitle">Your Affiliation / University</div>
-    <div class="about-links">
-      <a href="mailto:your.email@example.com">Email</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">GitHub</a>
-    </div>
-  </div>
-
+  <!-- <div class="about-header">
+    <h1>Tanvir Redoy</h1>
+    <div class="subtitle">PhD Student in Computer Science at Baylor University</div>
+  </div> -->
   <div class="about-section" id="about">
     <h2>About</h2>
     <p>
-      Welcome to my academic portfolio. I am a researcher and scholar focused on [your research area]. 
-      Currently, I am [your position] at [your institution].
+      I am a PhD Student in Computer Science at Baylor University, glad and greateful to be advised by <a href="https://acfreeman.dev">Dr. Andrew Freeman</a>. 
     </p>
     <p>
-      My research interests include [interest 1], [interest 2], and [interest 3]. I am passionate about 
-      developing novel approaches to solve complex problems in my field.
+      My research interests include <strong>Video Streaming & Compression, Neural Video Coding, Computer Vision, Networking, Generative AI</strong>. I am passionate about developing novel approaches to solve complex problems in my field.
     </p>
   </div>
-
   <div class="about-section" id="news">
-    <h2>News</h2>
+    <h2>🔥 News</h2>
     <ul>
-      <li><strong>2026.01</strong> — Latest update or announcement.</li>
-      <li><strong>2025.12</strong> — Another recent highlight.</li>
+      <li><strong>2026.01</strong> — Preparing a research publication in collaboration with international researches.</li>
+      <li><strong>2025.11</strong> — Reproduced a MoQ-based point-cloud live streaming system and extended it into a complete VV-DASH workflow.</li>
+      <li><strong>2025.10</strong> — Built out complete evaluation pipelines for neural codecs like DCVC-RT.</li>
+      <li><strong>2025.09</strong> — Analyzing emerging Neural Video Codecs (such as C3, NEVC-1.0, Cool-Chic).</li>
+      <li><strong>2025.08</strong> — Started PhD in Computer Science at Baylor University.</li>
     </ul>
   </div>
-
   <div class="about-section" id="research">
     <h2>Research Focus</h2>
     <p>
@@ -187,7 +179,6 @@ a:hover {
       <li><strong>Area 3:</strong> Brief description of your research in this area.</li>
     </ul>
   </div>
-
   <div class="highlight-box">
     <p>
       <strong>📋 For more details:</strong> 
@@ -196,37 +187,31 @@ a:hover {
       <a href="#cv">CV</a>.
     </p>
   </div>
-  
   <div class="about-section" id="publications">
-    <h2>Publications</h2>
+    <h2>📝 Publications</h2>
     <p>Highlights from my recent publications. Full list available below.</p>
     <p><a href="/publications/">View full publications →</a></p>
   </div>
-
   <div class="about-section" id="talks">
     <h2>Talks</h2>
     <p>Selected talks and presentations.</p>
     <p><a href="/talks/">View talks →</a></p>
   </div>
-
   <div class="about-section" id="teaching">
     <h2>Teaching</h2>
     <p>Courses and teaching experiences.</p>
     <p><a href="/teaching/">View teaching →</a></p>
   </div>
-
   <div class="about-section" id="portfolio">
     <h2>Portfolio</h2>
     <p>Selected projects and case studies.</p>
     <p><a href="/portfolio/">View portfolio →</a></p>
   </div>
-
   <div class="about-section" id="blog">
     <h2>Blog Posts</h2>
     <p>Notes and articles.</p>
     <p><a href="/year-archive/">View blog →</a></p>
   </div>
-
   <div class="about-section" id="cv">
     <h2>CV</h2>
     <p>Download my CV for a detailed overview.</p>
