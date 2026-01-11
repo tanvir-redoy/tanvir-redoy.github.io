@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Home"
+layout: archive
 author_profile: true
 redirect_from: 
   - /about/
@@ -28,7 +29,7 @@ body {
 .about-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 0px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.65;
@@ -143,52 +144,6 @@ a:hover {
   text-decoration: none;
 }
 </style>
-
-<div class="about-container">
-  <div class="about-header">
-    <h1>Your Name</h1>
-    <div class="subtitle">Your Affiliation / University</div>
-    <div class="about-links">
-      <a href="mailto:your.email@example.com">Email</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">GitHub</a>
-    </div>
-  </div>
-
-  <div class="about-section">
-    <h2>About</h2>
-    <p>
-      Welcome to my academic portfolio. I am a researcher and scholar focused on [your research area]. 
-      Currently, I am [your position] at [your institution].
-    </p>
-    <p>
-      My research interests include [interest 1], [interest 2], and [interest 3]. I am passionate about 
-      developing novel approaches to solve complex problems in my field.
-    </p>
-  </div>
-
-  <div class="about-section">
-    <h2>Research Focus</h2>
-    <p>
-      My research spans multiple areas within [field]. I focus on:
-    </p>
-    <ul>
-      <li><strong>Area 1:</strong> Brief description of your research in this area.</li>
-      <li><strong>Area 2:</strong> Brief description of your research in this area.</li>
-      <li><strong>Area 3:</strong> Brief description of your research in this area.</li>
-    </ul>
-  </div>
-
-  <div class="highlight-box">
-    <p>
-      <strong>📋 For more details:</strong> 
-      Check out my <a href="/portfolio/">portfolio</a>, 
-      <a href="/publications/">publications</a>, or 
-      <a href="/cv/">CV</a>.
-    </p>
-  </div>
-</div>
 
 <div class="about-container">
   <div class="about-header">
