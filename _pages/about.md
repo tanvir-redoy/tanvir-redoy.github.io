@@ -14,6 +14,11 @@ redirect_from:
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Hide the page title/heading */
+.page__title {
+  display: none !important;
+}
+
 body {
   font-size: 15px;
   line-height: 1.5;
