@@ -1,6 +1,11 @@
 /* ==========================================================================
-   FOOTER
+   FOOTER - HIDDEN FOR CLEAN AESTHETIC
    ========================================================================== */
+
+.page__footer {
+  display: none !important;
+  visibility: hidden !important;
+}
 
 .page__footer {
   @include clearfix;
