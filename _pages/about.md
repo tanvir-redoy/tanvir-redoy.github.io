@@ -168,6 +168,14 @@ a:hover {
     </p>
   </div>
 
+  <div class="about-section" id="news">
+    <h2>News</h2>
+    <ul>
+      <li><strong>2026.01</strong> — Latest update or announcement.</li>
+      <li><strong>2025.12</strong> — Another recent highlight.</li>
+    </ul>
+  </div>
+
   <div class="about-section" id="research">
     <h2>Research Focus</h2>
     <p>
