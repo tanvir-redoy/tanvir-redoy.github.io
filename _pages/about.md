@@ -152,23 +152,26 @@ a:hover {
   <div class="about-section" id="about">
     <h2>About</h2>
     <p>
-      I am a PhD Student in Computer Science at Baylor University, glad and greateful to be advised by <a href="https://acfreeman.dev">Dr. Andrew Freeman</a>. 
+      I am currently a PhD Student in Computer Science at Baylor University, glad and greateful to be advised by <a href="https://acfreeman.dev">Dr. Andrew Freeman</a>. Prior to that, I obtained my B.Sc. degree in Computer Science and Engineering from Rajshahi University of Engineering and Technology (RUET), under the supervision of <a href="https://www.cse.ruet.ac.bd/kmzahir61">Md. Zahirul Islam</a>.
     </p>
     <p>
       My research interests include <strong>Video Streaming & Compression, Neural Video Coding, Computer Vision, Networking, Generative AI</strong>. I am passionate about developing novel approaches to solve complex problems in my field.
     </p>
+    <p>
+      Traveling, Photography, and Filmmaking--this combination makes feel me refreshed.
+    <p>
   </div>
   <div class="about-section" id="news">
     <h2>🔥 News</h2>
     <ul>
-      <li><strong>2026.01</strong> — Preparing a research publication in collaboration with international researches.</li>
+      <li><strong>2025.12</strong> — Preparing a research publication in collaboration with international researches.</li>
       <li><strong>2025.11</strong> — Reproduced a MoQ-based point-cloud live streaming system and extended it into a complete VV-DASH workflow.</li>
       <li><strong>2025.10</strong> — Built out complete evaluation pipelines for neural codecs like DCVC-RT.</li>
       <li><strong>2025.09</strong> — Analyzing emerging Neural Video Codecs (such as C3, NEVC-1.0, Cool-Chic).</li>
       <li><strong>2025.08</strong> — Started PhD in Computer Science at Baylor University.</li>
     </ul>
   </div>
-  <div class="about-section" id="research">
+  <!-- <div class="about-section" id="research">
     <h2>Research Focus</h2>
     <p>
       My research spans multiple areas within [field]. I focus on:
@@ -178,7 +181,7 @@ a:hover {
       <li><strong>Area 2:</strong> Brief description of your research in this area.</li>
       <li><strong>Area 3:</strong> Brief description of your research in this area.</li>
     </ul>
-  </div>
+  </div> -->
   <div class="highlight-box">
     <p>
       <strong>📋 For more details:</strong> 
