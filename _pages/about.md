@@ -17,7 +17,7 @@ redirect_from:
 /* Override page layout to use full width */
 .page {
   /* width: 100% !important; */
-  /* padding-left: 0 !important; */
+  padding-left: 4.23% !important;
   padding-right: 4.23% !important;
   /* margin-left: 0 !important; */
   /* margin-right: 0 !important; */
