@@ -16,12 +16,12 @@ redirect_from:
 
 /* Override page layout to use full width */
 .page {
-  width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  float: none !important;
+  /* width: 100% !important; */
+  /* padding-left: 0 !important; */
+  padding-right: 4.23% !important;
+  /* margin-left: 0 !important; */
+  /* margin-right: 0 !important; */
+  /* float: none !important; */
 }
 
 #main {
@@ -42,7 +42,7 @@ body {
 }
 
 .about-container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
