@@ -24,11 +24,11 @@ redirect_from:
   /* float: none !important; */
 }
 
-#main {
+/* #main {
   max-width: 100% !important;
   padding-left: 2em;
   padding-right: 2em;
-}
+} */
 
 /* Hide the page title/heading */
 .page__title {
