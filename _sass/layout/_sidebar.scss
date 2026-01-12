@@ -225,7 +225,8 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  // display: table-cell;
+  display: none;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
@@ -248,14 +249,6 @@
     @include breakpoint($large) {
       display: none;
     }
-  }
-}
-
-.author__urls_small-screen {
-  display: flex;
-
-  @include breakpoint($large) {
-    display: none;
   }
 }
 
@@ -335,4 +328,20 @@
       text-decoration: underline;
     }
   }
+}
+
+.author__urls_small-screen{
+  display: flex;
+
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+.author__urls_small-screen .author___urls_sm{
+  display:flex;
+}
+
+.author__urls_small-screen .author___urls_sm .author__urls a{
+  font-size: $type-size-3;
 }
