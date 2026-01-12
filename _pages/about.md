@@ -26,9 +26,9 @@ body {
 }
 
 .about-container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0px 40px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.65;
@@ -87,6 +87,7 @@ body {
 .about-section h2 {
   font-size: 24px;
   font-weight: 600;
+  margin-top: 0px;
   margin-bottom: 16px;
   color: #222;
   border-bottom: 1px solid #e0e0e0;
@@ -158,8 +159,8 @@ a:hover {
       My research interests include <strong>Video Streaming & Compression, Neural Video Coding, Computer Vision, Networking, Generative AI</strong>. I am passionate about developing novel approaches to solve complex problems in my field.
     </p>
     <p>
-      Traveling, Photography, and Filmmaking--this combination makes feel me refreshed.
-    <p>
+      Traveling, Photography, and Filmmaking——this combination makes feel me refreshed.
+    </p>
   </div>
   <div class="about-section" id="news">
     <h2>🔥 News</h2>
