@@ -191,7 +191,8 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  // font-family: $sans-serif;
+  font-family: "Caveat", Arial;
   font-size: $type-size-5;
 }
 
@@ -213,6 +214,7 @@
 
 .author__bio {
   margin: 0;
+  font-family: "Caveat", Arial;
 
   @include breakpoint($large) {
     margin-top: 10px;

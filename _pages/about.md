@@ -175,7 +175,7 @@ a:hover {
       My research interests include <strong>Video Streaming & Compression, Neural Video Coding, Computer Vision, Networking, Generative AI</strong>. I am passionate about developing novel approaches to solve complex problems in my field.
     </p>
     <p>
-      Traveling, Photography, and Filmmaking——this combination makes feel me refreshed.
+      Traveling, Photography, and Filmmaking—this combination makes feel me refreshed.
     </p>
   </div>
   <div class="about-section" id="news">
