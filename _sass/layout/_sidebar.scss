@@ -340,18 +340,20 @@
 
 .author__urls_small-screen .author___urls_sm{
   display:flex;
+  position: relative;
   flex-direction: row;
   margin: 0px;
   padding: 0px;
   z-index: 10;
+  font-size: 2em;
   border: none;
   box-shadow: none;
 }
 
-.author__urls_small-screen .author___urls_sm .author__urls li{
+.author__urls_small-screen ul li{
   margin-bottom: 0px;
 }
 
-.author__urls_small-screen .author___urls_sm .author__urls li a{
+.author__urls_small-screen ul li a{
   font-size: 1.5em;
 }
