@@ -18,6 +18,20 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <div class="author__urls_small-screen">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        {% if author.twitter %}
+          <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X (formerly Twitter)</a></li>
+        {% endif %}
+        {% if author.linkedin %}
+          <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        {% endif %}
+        {% if author.github %}
+          <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+        {% endif %}
+      </ul>
+    </div>
   </div>
 
   <div class="author__urls-wrapper">

@@ -216,8 +216,6 @@
 
 .author__bio {
   margin: 0;
-  font-family: "Caveat", Arial;
-  font-size: $type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -250,6 +248,14 @@
     @include breakpoint($large) {
       display: none;
     }
+  }
+}
+
+.author__urls_small-screen {
+  display: flex;
+
+  @include breakpoint($large) {
+    display: none;
   }
 }
 
