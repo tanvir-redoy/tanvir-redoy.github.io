@@ -14,6 +14,22 @@ redirect_from:
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Override page layout to use full width */
+.page {
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  float: none !important;
+}
+
+#main {
+  max-width: 100% !important;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 /* Hide the page title/heading */
 .page__title {
   display: none !important;
@@ -26,9 +42,9 @@ body {
 }
 
 .about-container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 0px 40px;
+  padding: 0px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.65;
