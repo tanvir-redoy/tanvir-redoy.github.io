@@ -2,6 +2,8 @@
    SIDEBAR
    ========================================================================== */
 
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
 /*
    Default
    ========================================================================== */
@@ -193,7 +195,7 @@
 .sidebar .author__name {
   // font-family: $sans-serif;
   font-family: "Caveat", Arial;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
 }
 
 .sidebar .author__desktop {
@@ -215,6 +217,7 @@
 .author__bio {
   margin: 0;
   font-family: "Caveat", Arial;
+  font-size: $type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
