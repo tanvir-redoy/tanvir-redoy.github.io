@@ -225,8 +225,8 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  // display: none;
+  // display: table-cell;
+  display: none;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
@@ -348,6 +348,7 @@
   font-size: 2em;
   border: none;
   box-shadow: none;
+  list-style-type: none;
 }
 
 .author__urls_small-screen ul li{
