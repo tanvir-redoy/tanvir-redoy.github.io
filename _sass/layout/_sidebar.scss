@@ -338,7 +338,7 @@
   }
 }
 
-.author__urls_small-screen .author___urls_sm{
+.author__urls_small-screen .author__urls_sm{
   display:flex;
   position: relative;
   flex-direction: row;
@@ -355,5 +355,6 @@
 }
 
 .author__urls_small-screen ul li a{
-  font-size: 1.5em;
+  font-size: 2em;
+  color: inherit;
 }
