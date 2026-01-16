@@ -179,7 +179,7 @@ a:hover {
     </p>
   </div>
   <div class="about-section" id="news">
-    <h2>🔥 News</h2>
+    <h2>🎯 News</h2>
     <ul>
       <li><strong>2025.12</strong> — Preparing a research publication in collaboration with international researches.</li>
       <li><strong>2025.11</strong> — Reproduced a MoQ-based point-cloud live streaming system and extended it into a complete VV-DASH workflow.</li>
@@ -208,9 +208,13 @@ a:hover {
     </p>
   </div>
   <div class="about-section" id="publications">
-    <h2>📝 Publications</h2>
-    <p>Highlights from my recent publications. Full list available below.</p>
-    <p><a href="/publications/">View full publications →</a></p>
+    <h2>📝 Selected Publications</h2>
+    <!-- <p>Highlights from my recent publications. Full list available below.</p> -->
+    <ul>
+      <li><strong>[ACM NOSSDAV 2026]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. “Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ"</li>
+      <li><strong>[IEEE DICTA 2024]</strong>M. Z. Islam, <strong>T. A. Redoy</strong>, A. Ahmmed, M. Paul, M. Murshed. <a href="https://ieeexplore.ieee.org/abstract/document/10869620">Leveraging the Cuboidal Partitioning for Low Complexity CTU Structure Prediction in Versatile Video Coding</a></li>
+    </ul>
+    <p><a href="https://scholar.google.com/citations?hl=en&user=_nnDhe4AAAAJ">View full publications →</a></p>
   </div>
   <div class="about-section" id="talks">
     <h2>Talks</h2>
