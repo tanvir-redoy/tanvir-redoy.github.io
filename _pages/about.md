@@ -169,7 +169,7 @@ a:hover {
   <div class="about-section" id="about">
     <h2>About</h2>
     <p>
-      I am currently a PhD Student in Computer Science at Baylor University, glad and greateful to be advised by <a href="https://acfreeman.dev">Dr. Andrew Freeman</a>. Prior to that, I obtained my B.Sc. degree in Computer Science and Engineering from Rajshahi University of Engineering and Technology (RUET), under the supervision of <a href="https://www.cse.ruet.ac.bd/kmzahir61">Md. Zahirul Islam</a>.
+      I am currently a Ph.D. Student in Computer Science at Baylor University, glad and greateful to be advised by <a href="https://acfreeman.dev">Dr. Andrew Freeman</a>. Prior to that, I obtained my B.Sc. degree in Computer Science and Engineering from Rajshahi University of Engineering and Technology (RUET), under the supervision of <a href="https://www.cse.ruet.ac.bd/kmzahir61">Md. Zahirul Islam</a>.
     </p>
     <p>
       My research interests include <strong>Video Streaming & Compression, Neural Video Coding, Computer Vision, Networking, Generative AI</strong>. I am passionate about developing novel approaches to solve complex problems in my field.
@@ -181,11 +181,11 @@ a:hover {
   <div class="about-section" id="news">
     <h2>🎯 News</h2>
     <ul>
-      <li><strong>2025.12</strong> — Preparing a research publication in collaboration with international researches.</li>
-      <li><strong>2025.11</strong> — Reproduced a MoQ-based point-cloud live streaming system and extended it into a complete VV-DASH workflow.</li>
-      <li><strong>2025.10</strong> — Built out complete evaluation pipelines for neural codecs like DCVC-RT.</li>
-      <li><strong>2025.09</strong> — Analyzing emerging Neural Video Codecs (such as C3, NEVC-1.0, Cool-Chic).</li>
-      <li><strong>2025.08</strong> — Started PhD in Computer Science at Baylor University.</li>
+      <li><strong>Dec, 2025</strong> — Preparing a research publication in collaboration with international researchers.</li>
+      <li><strong>Nov, 2025</strong> — Reproduced a MoQ-based point-cloud live streaming system and extended it into a complete VV-DASH workflow.</li>
+      <li><strong>Oct, 2025</strong> — Built out complete evaluation pipelines for neural codecs like DCVC-RT.</li>
+      <li><strong>Sept, 2025</strong> — Analyzing emerging Neural Video Codecs (such as C3, NEVC-1.0, Cool-Chic).</li>
+      <li><strong>Aug, 2025</strong> — Started Ph.D. in Computer Science at Baylor University.</li>
     </ul>
   </div>
   <!-- <div class="about-section" id="research">
@@ -211,20 +211,24 @@ a:hover {
     <h2>📝 Selected Publications</h2>
     <!-- <p>Highlights from my recent publications. Full list available below.</p> -->
     <ul>
-      <li><strong>[ACM NOSSDAV 2026]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. “Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ"</li>
-      <li><strong>[IEEE DICTA 2024]</strong>M. Z. Islam, <strong>T. A. Redoy</strong>, A. Ahmmed, M. Paul, M. Murshed. <a href="https://ieeexplore.ieee.org/abstract/document/10869620">Leveraging the Cuboidal Partitioning for Low Complexity CTU Structure Prediction in Versatile Video Coding</a></li>
+      <li><strong>[ACM NOSSDAV 2026, (Under Review)]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. “Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ"</li>
+      <li><strong>[IEEE DICTA 2024]</strong> M. Z. Islam, <strong>T. A. Redoy</strong>, A. Ahmmed, M. Paul, M. Murshed. <a href="https://ieeexplore.ieee.org/abstract/document/10869620">Leveraging the Cuboidal Partitioning for Low Complexity CTU Structure Prediction in Versatile Video Coding</a></li>
     </ul>
     <p><a href="https://scholar.google.com/citations?hl=en&user=_nnDhe4AAAAJ">View full publications →</a></p>
   </div>
-  <div class="about-section" id="talks">
+  <!-- <div class="about-section" id="talks">
     <h2>Talks</h2>
     <p>Selected talks and presentations.</p>
     <p><a href="/talks/">View talks →</a></p>
-  </div>
+  </div> -->
   <div class="about-section" id="teaching">
     <h2>Teaching</h2>
-    <p>Courses and teaching experiences.</p>
-    <p><a href="/teaching/">View teaching →</a></p>
+    <div class="portfolio-meta">Lecturer | Dept. of CSE, Daffodil International University, Dhaka, Bangladesh
+      <ul>
+        <li>Jan, 2025 - April, 2025: Compiler Design (CSE331, CSE332), Artificial Intelligence Lab (CSE412), Theory of Computation (CSE228).</li>
+        <li>May, 2025 - July, 2025: Object Oriented Programming with Java (CSE221, CSE222)</li>
+      </ul>
+    </div>
   </div>
   <div class="about-section" id="portfolio">
     <h2>Portfolio</h2>
@@ -236,9 +240,9 @@ a:hover {
     <p>Notes and articles.</p>
     <p><a href="/year-archive/">View blog →</a></p>
   </div>
-  <div class="about-section" id="cv">
+  <!-- <div class="about-section" id="cv">
     <h2>CV</h2>
     <p>Download my CV for a detailed overview.</p>
     <p><a href="/cv/">View CV →</a></p>
-  </div>
+  </div> -->
 </div>
