@@ -17,20 +17,26 @@ main:
   - title: "Publications"
     url: /#publications
 
-  - title: "Talks"
-    url: /#talks
+  # - title: "Talks"
+  #   url: /#talks
 
   - title: "Teaching"
     url: /#teaching
+
+  - title: "Research Projects"
+    url: /#teaching
     
-  - title: "Portfolio"
-    url: /#portfolio
+  - title: "Awards & Honors"
+    url: /#awards
+    
+  # - title: "Portfolio"
+  #   url: /#portfolio
         
-  - title: "Blog Posts"
-    url: /#blog
+  # - title: "Blog Posts"
+  #   url: /#blog
     
-  - title: "CV"
-    url: /#cv
+  # - title: "CV"
+  #   url: /#cv
     
   # - title: "CV"
   #   url: /cv-json/

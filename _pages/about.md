@@ -229,17 +229,33 @@ a:hover {
         <li>May, 2025 - July, 2025: Object Oriented Programming with Java (CSE221, CSE222)</li>
       </ul>
     </div>
+    <p><a href="https://sites.google.com/view/tanvirahmedredoy/teaching">View teaching videos →</a></p>
   </div>
-  <div class="about-section" id="portfolio">
+  <!-- <div class="about-section" id="portfolio">
     <h2>Portfolio</h2>
     <p>Selected projects and case studies.</p>
     <p><a href="/portfolio/">View portfolio →</a></p>
+  </div> -->
+  <div class="about-section" id="projects">
+    <h2>Research Projects</h2>
+    <p>Selected projects and case studies.</p>
+    <p><a href="/portfolio/">View projects →</a></p>
   </div>
-  <div class="about-section" id="blog">
+  <div class="about-section" id="awards">
+    <h2>🏆 Awards & Honors</h2>
+    <ul>
+      <li>Prime Minister Cub-Scout Award [1st position nationwide], Bangladesh Scouts.</li>
+      <li>1st in 8th semester, GPA: 4.00, Dept. of CSE, RUET.</li>
+      <li>100% Attendance Certificate, Notre Dame College, Dhaka.</li>
+      <li>Education Board scholarships e.g., HSC, SSC.</li>
+    </ul>
+    <p><a href="https://sites.google.com/view/tanvirahmedredoy/awards">View photos →</a></p>
+  </div>
+  <!-- <div class="about-section" id="blog">
     <h2>Blog Posts</h2>
     <p>Notes and articles.</p>
     <p><a href="/year-archive/">View blog →</a></p>
-  </div>
+  </div> -->
   <!-- <div class="about-section" id="cv">
     <h2>CV</h2>
     <p>Download my CV for a detailed overview.</p>
