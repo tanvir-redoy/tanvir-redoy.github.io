@@ -343,6 +343,79 @@ a:hover {
       <a href="#cv">CV</a>.
     </p>
   </div> -->
+  <div class="about-section" id="research_projects">
+    <h2>Research Projects</h2>
+    <!-- Project 1 -->
+    <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="../images/rd_curve_Bosphorus_v3.png" alt="RD curve for Seq. Bosphorus" class="project-image project-image-primary">
+        <img src="../images/Bosphorus_hevc_qp42_vmaf71.9.png" alt="Visual repr. of a frame from Seq. Bosphorus" class="project-image project-image-secondary">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">DCVC-RT vs HEVC/AV1 Efficiency Benchmarking</h3>
+        <div class="project-links">
+          <a href="https://github.com/tanvir-redoy/DCVC-RT-vs-HEVC-AV1-Efficiency-Benchmarking.git">Code</a>
+        </div>
+        <p class="project-description">Evaluation pipelines to compare traditional codecs with neural codecs, focusing on BD-rate, complexity, and real-time feasibility.</p>
+        <!-- <ul class="project-points">
+          <li>.</li>
+        </ul> -->
+      </div>
+    </div>    
+    <!-- Project 2 -->
+    <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="../images/noseg.png" alt="Project 2" class="project-image project-image-primary">
+        <img src="../images/seg.png" alt="Project 2 Alt" class="project-image project-image-secondary">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Point Cloud Live Streaming—MoQ vs DASH</h3>
+        <div class="project-links">
+          <a href="https://arxiv.org/abs/2507.15673">Paper (arXiv)</a>
+        </div>
+        <p class="project-description">Latency driven MoQ-based point cloud live streaming pipeline, and performance comparison against VV-DASH architecture.</p>
+        <!-- <ul class="project-points">
+          <li>.</li>
+        </ul> -->
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="../images/CTU_partitioning_vehicles_UM.PNG" alt="Project 3" class="project-image project-image-primary">
+        <img src="../images/Cub-256.png" alt="Project 3 Alt" class="project-image project-image-secondary">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Cuboidal Image Map utilization to generate CUs partition decisions</h3>
+        <div class="project-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10869620">Paper</a> / <a href="https://github.com/tanvir-redoy/CUBOIDAL-image-map-procesisng-to-generate-CUs-partition-decisions">Code</a>
+        </div>
+        <p class="project-description">Modification of VVC encoder (VTM-20.2) pipeline to bypass expensive RDO stages and integrate algorithm-generated predictions.</p>
+        <!-- <ul class="project-points">
+          <li></li>
+        </ul> -->
+      </div>
+    </div>
+    <!-- Project 4 -->
+    <!-- <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="/images/project3.jpg" alt="Project 4" class="project-image project-image-primary">
+        <img src="/images/project3-alt.jpg" alt="Project 4 Alt" class="project-image project-image-secondary">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Project Title 4</h3>
+        <div class="project-links">
+          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
+        </div>
+        <p class="project-description">Brief description of the project and its significance.</p>
+        <ul class="project-points">
+          <li>Key feature or finding of the project</li>
+          <li>Technical approach or methodology used</li>
+          <li>Impact or results achieved</li>
+        </ul>
+      </div>
+    </div> -->
+  </div>
   <div class="about-section" id="publications">
     <h2>📝 Selected Publications</h2>
     <!-- <p>Highlights from my recent publications. Full list available below.</p> -->
@@ -372,62 +445,6 @@ a:hover {
     <p>Selected projects and case studies.</p>
     <p><a href="/portfolio/">View portfolio →</a></p>
   </div> -->
-  <div class="about-section" id="projects">
-    <h2>Research Projects</h2>
-    <!-- Project 1 -->
-    <div class="project-row">
-      <div class="project-image-wrapper">
-        <img src="../images/rd_curve_Bosphorus_v3.png" alt="RD curve for Seq. Bosphorus" class="project-image project-image-primary">
-        <img src="../images/Bosphorus_hevc_qp42_vmaf71.9.png" alt="Visual repr. of a frame from Seq. Bosphorus" class="project-image project-image-secondary">
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">DCVC-RT vs HEVC/AV1 Efficiency Benchmarking</h3>
-        <div class="project-links">
-          <a href="https://github.com/tanvir-redoy/DCVC-RT-vs-HEVC-AV1-Efficiency-Benchmarking.git">Code</a>
-        </div>
-        <p class="project-description">Evaluation pipelines to compare traditional codecs with neural codecs, focusing on BD-rate, complexity, and real-time feasibility.</p>
-        <!-- <ul class="project-points">
-          <li>.</li>
-        </ul> -->
-      </div>
-    </div>    
-    <!-- Project 2 -->
-    <div class="project-row">
-      <div class="project-image-wrapper">
-        <img src="../images/noseg.png" alt="Project 2" class="project-image project-image-primary">
-        <img src="/images/seg.png" alt="Project 2 Alt" class="project-image project-image-secondary">
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">Point cloud live streaming—MoQ vs DASH</h3>
-        <div class="project-links">
-          <a href="https://arxiv.org/abs/2507.15673">Paper (arXiv)</a>
-        </div>
-        <p class="project-description">Latency driven MoQ-based point cloud live streaming pipeline, and performance comparison against VV-DASH architecture.</p>
-        <!-- <ul class="project-points">
-          <li>.</li>
-        </ul> -->
-      </div>
-    </div>
-    <!-- Project 3 -->
-    <!-- <div class="project-row">
-      <div class="project-image-wrapper">
-        <img src="/images/project3.jpg" alt="Project 3" class="project-image project-image-primary">
-        <img src="/images/project3-alt.jpg" alt="Project 3 Alt" class="project-image project-image-secondary">
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">Project Title 3</h3>
-        <div class="project-links">
-          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
-        </div>
-        <p class="project-description">Brief description of the project and its significance.</p>
-        <ul class="project-points">
-          <li>Key feature or finding of the project</li>
-          <li>Technical approach or methodology used</li>
-          <li>Impact or results achieved</li>
-        </ul>
-      </div>
-    </div> -->
-  </div>
   <div class="about-section" id="awards">
     <h2>🏆 Awards & Honors</h2>
     <ul>

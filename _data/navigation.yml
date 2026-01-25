@@ -14,6 +14,9 @@ main:
   - title: "News"
     url: /#news
 
+  - title: "Research Projects"
+    url: /#research_projects
+
   - title: "Publications"
     url: /#publications
 
@@ -21,9 +24,6 @@ main:
   #   url: /#talks
 
   - title: "Teaching"
-    url: /#teaching
-
-  - title: "Research Projects"
     url: /#teaching
     
   - title: "Awards & Honors"
