@@ -159,6 +159,34 @@ a:hover {
   color: #0052a3;
   text-decoration: none;
 }
+
+.quote-box {
+  background-color: #f9f9f9;
+  border-left: 4px solid #0066cc;
+  padding: 24px 20px;
+  margin: 25px 0;
+  border-radius: 3px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.quote-box p {
+  margin-bottom: 12px;
+}
+
+.quote-author {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: #666;
+  font-size: 14px;
+}
+
+.quote-author::before {
+  content: "— ";
+}
 </style>
 
 <div class="about-container">
@@ -187,6 +215,10 @@ a:hover {
       <li><strong>Sept, 2025</strong> — Analyzing emerging Neural Video Codecs (such as C3, NEVC-1.0, Cool-Chic).</li>
       <li><strong>Aug, 2025</strong> — Started Ph.D. in Computer Science at Baylor University.</li>
     </ul>
+  </div>
+  <div class="quote-box" id="quote">
+    <p>"The only way to do great work is to love what you do."</p>
+    <div class="quote-author">Steve Jobs</div>
   </div>
   <!-- <div class="about-section" id="research">
     <h2>Research Focus</h2>
