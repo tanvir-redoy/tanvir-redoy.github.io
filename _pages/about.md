@@ -374,7 +374,6 @@ a:hover {
   </div> -->
   <div class="about-section" id="projects">
     <h2>Research Projects</h2>
-    
     <!-- Project 1 -->
     <div class="project-row">
       <div class="project-image-wrapper">
@@ -386,31 +385,27 @@ a:hover {
         <div class="project-links">
           <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
         </div>
-        <p class="project-description">Brief description of the project and its significance.</p>
-        <ul class="project-points">
-          <li>Built automated scripts for encoding/decoding, metric extraction, and visualization.</li>
-          <li>Generated comparative RD-curves across multiple UVG sequences, identifying efficiency gains and perceptual tradeoffs.</li>
-        </ul>
+        <p class="project-description">Evaluation pipelines to compare traditional codecs with neural codecs, focusing on BD-rate, complexity, and real-time feasibility.</p>
+        <!-- <ul class="project-points">
+          <li>.</li>
+        </ul> -->
       </div>
-    </div>
-    
+    </div>    
     <!-- Project 2 -->
     <div class="project-row">
       <div class="project-image-wrapper">
-        <img src="/images/project2.jpg" alt="Project 2" class="project-image project-image-primary">
-        <img src="/images/project2-alt.jpg" alt="Project 2 Alt" class="project-image project-image-secondary">
+        <img src="../images/noseg.png" alt="Project 2" class="project-image project-image-primary">
+        <img src="/images/seg.png" alt="Project 2 Alt" class="project-image project-image-secondary">
       </div>
       <div class="project-content">
-        <h3 class="project-title">Project Title 2</h3>
+        <h3 class="project-title">Point cloud live streaming—MoQ vs DASH</h3>
         <div class="project-links">
           <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
         </div>
-        <p class="project-description">Brief description of the project and its significance.</p>
-        <ul class="project-points">
-          <li>Key feature or finding of the project</li>
-          <li>Technical approach or methodology used</li>
-          <li>Impact or results achieved</li>
-        </ul>
+        <p class="project-description">Latency driven MoQ-based point cloud live streaming pipeline, and performance comparison against VV-DASH architecture.</p>
+        <!-- <ul class="project-points">
+          <li>.</li>
+        </ul> -->
       </div>
     </div>
     
