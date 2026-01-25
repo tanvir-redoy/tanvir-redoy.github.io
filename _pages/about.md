@@ -138,7 +138,7 @@ body {
 }
 
 .highlight-box {
-  background-color: #fafafa;
+  background-color: #f9f9f9;
   padding: 18px 20px;
   border-left: 3px solid #0066cc;
   margin: 25px 0;
@@ -163,13 +163,8 @@ a:hover {
 }
 
 .quote-box {
-  background-color: #f9f9f9;
-  border-left: 4px solid #0066cc;
-  padding: 24px 20px;
-  margin: 25px 0;
-  border-radius: 3px;
   font-style: italic;
-  font-family: "Pacifico", Arial
+  font-family: "Pacifico", Arial;
   font-size: 16px;
   line-height: 1.8;
   color: #333;
@@ -219,7 +214,7 @@ a:hover {
       <li><strong>Aug, 2025</strong> — Started Ph.D. in Computer Science at Baylor University.</li>
     </ul>
   </div>
-  <div class="quote-box" id="quote">
+  <div class="highlight-box quote-box" id="quote">
     <p>"My Boy, Life is Good, Life is Beautiful, Life is Simple."</p>
     <div class="quote-author">Rezaul Karim, Dept. of Mathematics, Notre Dame College</div>
   </div>
