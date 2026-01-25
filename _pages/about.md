@@ -185,42 +185,77 @@ a:hover {
   content: "— ";
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+.project-row {
+  display: flex;
   gap: 30px;
-  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: flex-start;
 }
 
-.project-card {
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
+.project-image-wrapper {
+  flex-shrink: 0;
+  width: 280px;
+  position: relative;
   overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 
 .project-image {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  border-radius: 6px;
   display: block;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.project-image-primary {
+  position: relative;
+  z-index: 2;
+}
+
+.project-image-secondary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.project-image-wrapper:hover .project-image-primary {
+  opacity: 0;
+}
+
+.project-image-wrapper:hover .project-image-secondary {
+  opacity: 1;
 }
 
 .project-content {
-  padding: 20px;
+  flex: 1;
+  min-width: 0;
 }
 
 .project-title {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
-  margin: 0 0 12px 0;
+  margin: 0 0 8px 0;
   color: #222;
+  line-height: 1.4;
+}
+
+.project-links {
+  margin: 8px 0 12px 0;
+  font-size: 14px;
+}
+
+.project-links a {
+  margin-right: 12px;
+}
+
+.project-description {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 .project-points {
@@ -233,7 +268,7 @@ a:hover {
   font-size: 14px;
   line-height: 1.6;
   color: #555;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   padding-left: 18px;
   position: relative;
 }
@@ -244,6 +279,17 @@ a:hover {
   left: 0;
   color: #0066cc;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .project-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .project-image-wrapper {
+    width: 100%;
+  }
 }
 </style>
 
@@ -316,7 +362,7 @@ a:hover {
     <div class="portfolio-meta">Lecturer | Dept. of CSE, Daffodil International University, Dhaka, Bangladesh
       <ul>
         <li>Jan, 2025 - April, 2025: Compiler Design (CSE331, CSE332), Artificial Intelligence Lab (CSE412), Theory of Computation (CSE228).</li>
-        <li>May, 2025 - July, 2025: Object Oriented Programming with Java (CSE221, CSE222)</li>
+        <li>May, 2025 - July, 2025: Object Oriented Programming with Java (CSE221, CSE222).</li>
       </ul>
     </div>
     <p><a href="https://sites.google.com/view/tanvirahmedredoy/teaching">View teaching videos →</a></p>
@@ -328,47 +374,65 @@ a:hover {
   </div> -->
   <div class="about-section" id="projects">
     <h2>Research Projects</h2>
-    <div class="projects-grid">
-      <!-- Project 1 -->
-      <div class="project-card">
-        <img src="/images/project1.jpg" alt="Project 1" class="project-image">
-        <div class="project-content">
-          <h3 class="project-title">Project Title 1</h3>
-          <ul class="project-points">
-            <li>Key feature or finding of the project</li>
-            <li>Technical approach or methodology used</li>
-            <li>Impact or results achieved</li>
-          </ul>
-        </div>
+    
+    <!-- Project 1 -->
+    <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="../images/rd_curve_Bosphorus_v3.png" alt="RD curve for Seq. Bosphorus" class="project-image project-image-primary">
+        <img src="../images/Bosphorus_hevc_qp42_vmaf71.9.png" alt="Visual repr. of a frame from Seq. Bosphorus" class="project-image project-image-secondary">
       </div>
-      
-      <!-- Project 2 -->
-      <div class="project-card">
-        <img src="/images/project2.jpg" alt="Project 2" class="project-image">
-        <div class="project-content">
-          <h3 class="project-title">Project Title 2</h3>
-          <ul class="project-points">
-            <li>Key feature or finding of the project</li>
-            <li>Technical approach or methodology used</li>
-            <li>Impact or results achieved</li>
-          </ul>
+      <div class="project-content">
+        <h3 class="project-title">DCVC-RT vs HEVC/AV1 Efficiency Benchmarking</h3>
+        <div class="project-links">
+          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
         </div>
-      </div>
-      
-      <!-- Project 3 -->
-      <div class="project-card">
-        <img src="/images/project3.jpg" alt="Project 3" class="project-image">
-        <div class="project-content">
-          <h3 class="project-title">Project Title 3</h3>
-          <ul class="project-points">
-            <li>Key feature or finding of the project</li>
-            <li>Technical approach or methodology used</li>
-            <li>Impact or results achieved</li>
-          </ul>
-        </div>
+        <p class="project-description">Brief description of the project and its significance.</p>
+        <ul class="project-points">
+          <li>Built automated scripts for encoding/decoding, metric extraction, and visualization.</li>
+          <li>Generated comparative RD-curves across multiple UVG sequences, identifying efficiency gains and perceptual tradeoffs.</li>
+        </ul>
       </div>
     </div>
-    <p style="margin-top: 30px;"><a href="/portfolio/">View all projects →</a></p>
+    
+    <!-- Project 2 -->
+    <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="/images/project2.jpg" alt="Project 2" class="project-image project-image-primary">
+        <img src="/images/project2-alt.jpg" alt="Project 2 Alt" class="project-image project-image-secondary">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Project Title 2</h3>
+        <div class="project-links">
+          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
+        </div>
+        <p class="project-description">Brief description of the project and its significance.</p>
+        <ul class="project-points">
+          <li>Key feature or finding of the project</li>
+          <li>Technical approach or methodology used</li>
+          <li>Impact or results achieved</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Project 3 -->
+    <div class="project-row">
+      <div class="project-image-wrapper">
+        <img src="/images/project3.jpg" alt="Project 3" class="project-image project-image-primary">
+        <img src="/images/project3-alt.jpg" alt="Project 3 Alt" class="project-image project-image-secondary">
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Project Title 3</h3>
+        <div class="project-links">
+          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
+        </div>
+        <p class="project-description">Brief description of the project and its significance.</p>
+        <ul class="project-points">
+          <li>Key feature or finding of the project</li>
+          <li>Technical approach or methodology used</li>
+          <li>Impact or results achieved</li>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="about-section" id="awards">
     <h2>🏆 Awards & Honors</h2>
