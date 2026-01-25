@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
 * {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -167,6 +169,7 @@ a:hover {
   margin: 25px 0;
   border-radius: 3px;
   font-style: italic;
+  font-family: "Pacifico", Arial
   font-size: 16px;
   line-height: 1.8;
   color: #333;
@@ -180,7 +183,7 @@ a:hover {
   margin-top: 12px;
   font-style: normal;
   font-weight: 500;
-  color: #666;
+  color: #333;
   font-size: 14px;
 }
 
@@ -217,8 +220,8 @@ a:hover {
     </ul>
   </div>
   <div class="quote-box" id="quote">
-    <p>"The only way to do great work is to love what you do."</p>
-    <div class="quote-author">Steve Jobs</div>
+    <p>"My Boy, Life is Good, Life is Beautiful, Life is Simple."</p>
+    <div class="quote-author">Rezaul Karim, Dept. of Mathematics, Notre Dame College</div>
   </div>
   <!-- <div class="about-section" id="research">
     <h2>Research Focus</h2>
@@ -231,14 +234,14 @@ a:hover {
       <li><strong>Area 3:</strong> Brief description of your research in this area.</li>
     </ul>
   </div> -->
-  <div class="highlight-box">
+  <!-- <div class="highlight-box">
     <p>
       <strong>📋 For more details:</strong> 
       Check out my <a href="#portfolio">portfolio</a>, 
       <a href="#publications">publications</a>, or 
       <a href="#cv">CV</a>.
     </p>
-  </div>
+  </div> -->
   <div class="about-section" id="publications">
     <h2>📝 Selected Publications</h2>
     <!-- <p>Highlights from my recent publications. Full list available below.</p> -->
