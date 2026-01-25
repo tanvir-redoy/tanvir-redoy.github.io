@@ -164,14 +164,13 @@ a:hover {
 
 .quote-box {
   font-style: italic;
-  font-family: "Pacifico", Arial;
   font-size: 16px;
-  line-height: 1.8;
   color: #333;
 }
 
 .quote-box p {
   margin-bottom: 12px;
+  font-family: "Pacifico", Arial;
 }
 
 .quote-author {
@@ -184,6 +183,67 @@ a:hover {
 
 .quote-author::before {
   content: "— ";
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #222;
+}
+
+.project-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-points li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 8px;
+  padding-left: 18px;
+  position: relative;
+}
+
+.project-points li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0066cc;
+  font-weight: bold;
 }
 </style>
 
@@ -268,8 +328,47 @@ a:hover {
   </div> -->
   <div class="about-section" id="projects">
     <h2>Research Projects</h2>
-    <p>Selected projects and case studies.</p>
-    <p><a href="/portfolio/">View projects →</a></p>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="/images/project1.jpg" alt="Project 1" class="project-image">
+        <div class="project-content">
+          <h3 class="project-title">Project Title 1</h3>
+          <ul class="project-points">
+            <li>Key feature or finding of the project</li>
+            <li>Technical approach or methodology used</li>
+            <li>Impact or results achieved</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="/images/project2.jpg" alt="Project 2" class="project-image">
+        <div class="project-content">
+          <h3 class="project-title">Project Title 2</h3>
+          <ul class="project-points">
+            <li>Key feature or finding of the project</li>
+            <li>Technical approach or methodology used</li>
+            <li>Impact or results achieved</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="/images/project3.jpg" alt="Project 3" class="project-image">
+        <div class="project-content">
+          <h3 class="project-title">Project Title 3</h3>
+          <ul class="project-points">
+            <li>Key feature or finding of the project</li>
+            <li>Technical approach or methodology used</li>
+            <li>Impact or results achieved</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top: 30px;"><a href="/portfolio/">View all projects →</a></p>
   </div>
   <div class="about-section" id="awards">
     <h2>🏆 Awards & Honors</h2>
