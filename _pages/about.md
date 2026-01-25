@@ -347,7 +347,7 @@ a:hover {
     <h2>📝 Selected Publications</h2>
     <!-- <p>Highlights from my recent publications. Full list available below.</p> -->
     <ul>
-      <li><strong>[ACM NOSSDAV 2026, (Under Review)]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. “Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ"</li>
+      <li><strong>[ACM NOSSDAV 2026, (Under Review)]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. <a href="https://arxiv.org/abs/2507.15673">Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ</a></li>
       <li><strong>[IEEE DICTA 2024]</strong> M. Z. Islam, <strong>T. A. Redoy</strong>, A. Ahmmed, M. Paul, M. Murshed. <a href="https://ieeexplore.ieee.org/abstract/document/10869620">Leveraging the Cuboidal Partitioning for Low Complexity CTU Structure Prediction in Versatile Video Coding</a></li>
     </ul>
     <p><a href="https://scholar.google.com/citations?hl=en&user=_nnDhe4AAAAJ">View full publications →</a></p>
@@ -383,7 +383,7 @@ a:hover {
       <div class="project-content">
         <h3 class="project-title">DCVC-RT vs HEVC/AV1 Efficiency Benchmarking</h3>
         <div class="project-links">
-          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
+          <a href="https://github.com/tanvir-redoy/DCVC-RT-vs-HEVC-AV1-Efficiency-Benchmarking.git">Code</a>
         </div>
         <p class="project-description">Evaluation pipelines to compare traditional codecs with neural codecs, focusing on BD-rate, complexity, and real-time feasibility.</p>
         <!-- <ul class="project-points">
@@ -400,7 +400,7 @@ a:hover {
       <div class="project-content">
         <h3 class="project-title">Point cloud live streaming—MoQ vs DASH</h3>
         <div class="project-links">
-          <a href="#">Project Page</a> / <a href="#">Paper</a> / <a href="#">Code</a>
+          <a href="https://arxiv.org/abs/2507.15673">Paper (arXiv)</a>
         </div>
         <p class="project-description">Latency driven MoQ-based point cloud live streaming pipeline, and performance comparison against VV-DASH architecture.</p>
         <!-- <ul class="project-points">
@@ -408,9 +408,8 @@ a:hover {
         </ul> -->
       </div>
     </div>
-    
     <!-- Project 3 -->
-    <div class="project-row">
+    <!-- <div class="project-row">
       <div class="project-image-wrapper">
         <img src="/images/project3.jpg" alt="Project 3" class="project-image project-image-primary">
         <img src="/images/project3-alt.jpg" alt="Project 3 Alt" class="project-image project-image-secondary">
@@ -427,7 +426,7 @@ a:hover {
           <li>Impact or results achieved</li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="about-section" id="awards">
     <h2>🏆 Awards & Honors</h2>
