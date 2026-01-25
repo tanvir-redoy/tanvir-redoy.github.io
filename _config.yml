@@ -13,7 +13,7 @@ title                    : "Tanvir Redoy's Website"
 title_separator          : "-"
 nav_title                : "Homepage"
 name                     : &name "Tanvir Redoy"
-description              : &description "Tanvir Redoy's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "CS PhD Student at Baylor University. Passionate about research, academia, and technology."
 url                      : https://tanvir-redoy.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -131,7 +131,11 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+# To get your Google Site Verification code:
+# 1. Go to https://search.google.com/search-console
+# 2. Add your property: https://tanvir-redoy.github.io
+# 3. Copy the verification code and paste it below
+google_site_verification : # Add your Google verification code here
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -145,13 +149,16 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : "Academic portfolio of Tanvir Redoy"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Tanvir Redoy
+  links:
+    - https://www.linkedin.com/in/tanvir-ahmed-redoy
+    - https://github.com/tanvir-redoy
+    - https://scholar.google.com/citations?hl=en&user=_nnDhe4AAAAJ
 
 
 # Analytics

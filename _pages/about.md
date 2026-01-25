@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Home"
+description: "Tanvir Redoy - CS PhD Student at Baylor University. Academic portfolio featuring research, publications, and professional background."
 author_profile: true
 redirect_from: 
   - /about/
