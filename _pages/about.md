@@ -314,6 +314,9 @@ a:hover {
   <div class="about-section" id="news">
     <h2>🎯 News</h2>
     <ul>
+      <li><strong>Feb, 2026</strong> — Paper Accepted in <strong>ACM NOSSDAV’26</strong>, Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ.</li>
+      <li><strong>Jan, 2026</strong> — Started working on Client-Side Video Analysis for Content Moderation with MoQ.</li>
+      <li><strong>Jan, 2026</strong> — Submitted a research work to ACM NOSSDAV'26.</li>
       <li><strong>Dec, 2025</strong> — Preparing a research publication in collaboration with international researchers.</li>
       <li><strong>Nov, 2025</strong> — Reproduced a MoQ-based point-cloud live streaming system and extended it into a complete VV-DASH workflow.</li>
       <li><strong>Oct, 2025</strong> — Built out complete evaluation pipelines for neural codecs like DCVC-RT.</li>
@@ -421,7 +424,7 @@ a:hover {
     <h2>📝 Selected Publications</h2>
     <!-- <p>Highlights from my recent publications. Full list available below.</p> -->
     <ul>
-      <li><strong>[ACM NOSSDAV 2026, (Under Review)]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. <a href="https://arxiv.org/abs/2507.15673">Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ</a></li>
+      <li><strong>[ACM NOSSDAV 2026]</strong> A. C. Freeman, M. Rudolph, <strong>T. A. Redoy</strong>, F. Schnier, H. Hassler, S. Afzal, A. Rizk. <a href="https://arxiv.org/abs/2507.15673">Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ</a></li>
       <li><strong>[IEEE DICTA 2024]</strong> M. Z. Islam, <strong>T. A. Redoy</strong>, A. Ahmmed, M. Paul, M. Murshed. <a href="https://ieeexplore.ieee.org/abstract/document/10869620">Leveraging the Cuboidal Partitioning for Low Complexity CTU Structure Prediction in Versatile Video Coding</a></li>
     </ul>
     <p><a href="https://scholar.google.com/citations?hl=en&user=_nnDhe4AAAAJ">View full publications →</a></p>
