@@ -462,7 +462,7 @@ a:hover {
   <div class="about-section" id="blog">
     <h2>Blog Posts</h2>
     <ul>
-      <li>Feb 26, 2026 - <a href="/moq-guide/">Media Over QUIC (MoQ) Comprehensive Guide</a></li>
+      <li>Feb 26, 2026 - <a href="/moq-guide/" target="_blank">Media Over QUIC (MoQ) Comprehensive Guide</a></li>
     </ul>
     <!-- <p>Notes and articles.</p>
     <p><a href="/year-archive/">View blog →</a></p> -->
