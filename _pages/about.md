@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-description: "Tanvir Redoy - CS PhD Student at Baylor University. Academic portfolio featuring research, publications, and professional background."
+description: "Tanvir Ahmed Redoy - CS PhD Student at Baylor University. Academic portfolio featuring research, publications, and professional background."
 author_profile: true
 redirect_from: 
   - /about/
@@ -459,11 +459,14 @@ a:hover {
     </ul>
     <p><a href="https://sites.google.com/view/tanvirahmedredoy/awards">View photos →</a></p>
   </div>
-  <!-- <div class="about-section" id="blog">
+  <div class="about-section" id="blog">
     <h2>Blog Posts</h2>
-    <p>Notes and articles.</p>
-    <p><a href="/year-archive/">View blog →</a></p>
-  </div> -->
+    <ul>
+      <li>Feb 26, 2026 - <a href="/moq-guide/">Media Over QUIC (MoQ) Comprehensive Guide</a></li>
+    </ul>
+    <!-- <p>Notes and articles.</p>
+    <p><a href="/year-archive/">View blog →</a></p> -->
+  </div>
   <!-- <div class="about-section" id="cv">
     <h2>CV</h2>
     <p>Download my CV for a detailed overview.</p>
