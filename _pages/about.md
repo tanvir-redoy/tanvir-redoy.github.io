@@ -463,6 +463,7 @@ a:hover {
     <h2>Blog Posts</h2>
     <ul>
       <li>Feb 24, 2026 - <a href="/moq-guide/" target="_blank">Media Over QUIC (MoQ) Comprehensive Guide</a></li>
+      <li>Feb 24, 2026 - <a href="/streaming-format-media-package-guide/" target="_blank">Streaming Formats, Media Packaging (LOC, CMAF), and WebTransport</a></li>
     </ul>
     <!-- <p>Notes and articles.</p>
     <p><a href="/year-archive/">View blog →</a></p> -->
